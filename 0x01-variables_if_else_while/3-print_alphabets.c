@@ -3,16 +3,16 @@
 #include <stdio.h>
 
 /**
- * main - print all alphabet in lowercase.
+ * main - print all alphabet in lowercase and uppercase.
  * Return: Always 0 (Success)
  */
 int main(void)
-{   char alp[26] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+{   char alph[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i;
 
 	for (i = 0; i < 26; i++)
 	{
-		putchar(alp[i]);
+		putchar(alph[i]);
 	}
     
 	putchar('\n');
