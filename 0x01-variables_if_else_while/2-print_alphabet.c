@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - print the last digit.
+ * main - print all alphabet in lowercase.
  * Return: Always 0 (Success)
  */
 
