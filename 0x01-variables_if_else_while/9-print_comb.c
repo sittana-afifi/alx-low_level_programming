@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - print all digits.
+ * main - print all digits with comma & space.
  * Return: Always 0 (Success)
  */
 int main(void)
