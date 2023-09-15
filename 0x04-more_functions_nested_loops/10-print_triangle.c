@@ -2,15 +2,15 @@
 
 /**
  * print_triangle - prints a triangle.
- * @size: numbers of lines.
+ * @n: numbers of lines.
  * Return: no return.
  */
-void print_triangle(int size)
+void print_triangle(int n)
 {
 	int i, j;
 
-	for (i = 0; i < size; i++)
-		if (i < (size - 1))
+	for (i = 0; i < n; i++)
+		if (i < (n - 1))
 			_putchar('\n');
 	}
 	_putchar('\n');
