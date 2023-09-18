@@ -3,21 +3,21 @@
 /**
  * _strcpy - copies the string pointed to by src,
  * including the terminating null byte, to the
- * buffer pointed to by des.
- * @des: desination.
+ * buffer pointed to by dest.
+ * @dest: destination.
  * @src: source.
- * Return: the pointer to des.
+ * Return: the pointer to dest.
  */
-char *_strcpy(char *des, char *src)
+char *_strcpy(char *dest, char *src)
 {
 	int c = 0;
 
 	while (c >= 0)
 	{
-		*(des + c) = *(src + c);
+		*(dest + c) = *(src + c);
 		if (*(src + c) == '\0')
 			break;
 		c++;
 	}
-	return (des);
+	return (dest);
 }
